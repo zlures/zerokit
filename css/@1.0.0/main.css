@@ -1,0 +1,58 @@
+@charset "UTF-8";/*!
+* ZeroKit v. 1.0.0
+* Made by Vlada (zlures)
+* https://github.com/zlures/
+* _____________________________
+*/
+:root {
+    --zdark: #444444;
+    --zpurple: #DD44DD;
+    --zgood: #A1FF82;
+    --zdanger: #FF3D3D;
+    --zwarn: #FFC107;
+    --zblue: #3D4CF5;
+}
+.line {
+    height: 5px;
+    border-radius: 10px;
+    width: 95%;
+    opacity: 0.3;
+    background-color: gray;
+  }
+
+  .footer {
+    opacity: 0.3;
+  }
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-size: 1rem;
+    margin: 0;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: var(--zdark);
+}
+.italic, italic {
+    font-style: italic;
+}
+strong {
+    font-weight: bolder;
+}
+.invbluetopurple {
+    height: 80px;
+    background: linear-gradient(to bottom right, var(--zblue), var(--zpurple));
+}
+.tablecenter1 {
+    display: table;
+}
+.tablecenter2 {
+    vertical-align: middle;
+}
+.tablecenter3 {
+    margin-left: auto;
+    margin-right: auto;
+}
